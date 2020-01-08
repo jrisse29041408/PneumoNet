@@ -36,8 +36,8 @@ computing power. So I had to MobileNet because the model was optimized to be use
 >> Number of Imgs: 1488 imgs
 
 > Example
-<img src="imgs/normal/IM-0227-0001.jpeg" alt="Normal chest x-ray">
-<img src="imgs/pneumonia/person1_bacteria_2.jpeg" alt="Pneumonia chest x-ray">
+<img src="/Users/jackrisse/Capstone/imgs/normal/IM-0227-0001.jpeg" alt="Normal chest x-ray">
+<img src="/Users/jackrisse/Capstone/imgs/pneumonia/person1_bacteria_2.jpeg" alt="Pneumonia chest x-ray">
 
 ### Data augmentation
 > The images went through a random transformation. The augmented data was put through a rotation of 0-90 degrees of rotation, move up or down, or flip vertically or horizontally.
