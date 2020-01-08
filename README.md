@@ -15,7 +15,7 @@ to train the model. The base model was MobileNet that was pre-trained on the ima
 computing power. So I had to MobileNet because the model was optimized to be used with mobile applications.
 
 ### MobileNet
-> MobileNet uses depth-wise separable convolutions. Such convolutions reduces the number of times multiplication computation is performed. The CNN was made for mobile and embedded computer vision applications. Cornell wrote a paper on the <a href="https://arxiv.org/abs/1704.04861">MobileNet</a>
+> MobileNet uses depth-wise separable convolutions. Such convolutions reduces the number of times multiplication computation is performed. The CNN was made for mobile and embedded computer vision applications. Cornell wrote a paper on the <a href="https://arxiv.org/abs/1704.04861">MobileNet</a>.
 
 > imagenet
 >> imagenet is a dataset that all of the pre-trained models use to train their models. The dataset contains over 14 million images with 1000 different classes. To learn more about the imagenet dataset to go to <a href="http://image-net.org/about-overview">here</a>.
@@ -60,3 +60,4 @@ inhibits the capabilities of creating an acceptable model that performs correctl
 >> Precision: 98.9%
 
 > ** recall couldn't be calculated for training and validating due to the keras trains models **
+#### My results beat the winner of the Kaggle competition the dataset was derived from.
