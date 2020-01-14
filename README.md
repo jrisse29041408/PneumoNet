@@ -44,9 +44,8 @@ to train the model. The base model was MobileNet that was pre-trained on the ima
 > Number of Imgs: 1488 imgs
 
 > Example
-
-![Chest X-ray with no Pneumonia](normal-chest-xray.png)
-![Chest X-ray with Pneumonia](pneumonia-chest-xray.png)
+<img src="normal-chest-xray.png" alt="Chest X-ray with no Pneumonia" width="260" height="180">
+<img src="pneumonia-chest-xray.png" alt="Chest X-ray with Pneumonia" width="260" height="180">
 
 ### Data augmentation
 > The images went through a random transformation. The augmented data was put through a rotation of 0-90 degrees of rotation, move up or down, or flip vertically or horizontally.
