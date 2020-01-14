@@ -28,20 +28,25 @@ to train the model. The base model was MobileNet that was pre-trained on the ima
 ### Data
 > The data came from <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">Kaggle</a>. The dataset had some class imbalance with a ratio of about 27% of x-ray with no pneumonia and 73% of x-rays with pneumonia. So after data augmentation, 42% of x-rays with no pneumonia and 58% of x-ray with pneumonia. There still is some class imbalance but not that much to make a impact on accuracy and definitely better than 27% and 73%.
 
-> Input Image Size (width, height, channels)
->> Size: (260, 180, 3)
->> In the competition on Kaggle, most of the participants resized their images to (150, 150, 3) which seems to be a convention, but for some reason just inserting the metrics because of convention and no explanation of why that's the convention really bothers. So I found the mean size of the imgs and rounded the average sizes and made an aspect ratio (13:9) so 13 * 20 = 260 and 9 * 20 = 180 and that's how I got the my image size. Another reason why I didn't want to use (150, 150, 3) because if you are able to keep the images larger without compromising the restraints when not running on a GPU or have ample space of memory, the model can extract more specific features in the pictures due to them being bigger in size.
+> #### Input Image Size (width, height, channels)
+> #### Size: (260, 180, 3)
+> In the competition on Kaggle, most of the participants resized their images to (150, 150, 3) which seems to be a convention, but for some reason just inserting the metrics because of convention and no explanation of why that's the convention really bothers. So I found the mean size of the imgs and rounded the average sizes and made an aspect ratio (13:9) so 13 * 20 = 260 and 9 * 20 = 180 and that's how I got the my image size. Another reason why I didn't want to use (150, 150, 3) because if you are able to keep the images larger without compromising the restraints when not running on a GPU or have ample space of memory, the model can extract more specific features in the pictures due to them being bigger in size.
 
-> Train set
->> Number of Imgs: 4760 imgs
-> Validation set
->> Number of Imgs: 1191 imgs
-> Test set
->> Number of Imgs: 1488 imgs
+> #### Train set
+> Number of Imgs: 4760 imgs
+
+
+> #### Validation set
+> Number of Imgs: 1191 imgs
+
+
+> #### Test set
+> Number of Imgs: 1488 imgs
 
 > Example
-<img src="/Users/jackrisse/Capstone/imgs/normal/IM-0227-0001.jpeg" alt="Normal chest x-ray">
-<img src="/Users/jackrisse/Capstone/imgs/pneumonia/person1_bacteria_2.jpeg" alt="Pneumonia chest x-ray">
+
+![Chest X-ray with no Pneumonia](normal-chest-xray.png)
+![Chest X-ray with Pneumonia](pneumonia-chest-xray.png)
 
 ### Data augmentation
 > The images went through a random transformation. The augmented data was put through a rotation of 0-90 degrees of rotation, move up or down, or flip vertically or horizontally.
