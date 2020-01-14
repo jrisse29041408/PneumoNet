@@ -10,16 +10,16 @@
 
 ## About
 > The objective of this project was to use Convolution Neural Networks to diagnose chest x-rays. Transfer learning was used
-to train the model. The base model was MobileNet that was pre-trained on the imagenet dataset.
+to train the model. The base model was MobileNet that was pre-trained on the imagenet dataset. I used a software engineering approach because of obstacles that I faced with the servers and memory issues when dealing with notebooks. But there is an advantage to that it comes to time to implement the model to an application or product.
 
 > Why I chose MobileNet pre-trained model?
->> Since the access to GPUs is not affordable for a student I couldn't train with a model that requires a substantial amount of computing power. So I had to MobileNet because the model was optimized to be used with mobile applications.
+> Since the access to GPUs is not affordable for a student I couldn't train with a model that requires a substantial amount of computing power. So I had to MobileNet because the model was optimized to be used with mobile applications.
 
 ### MobileNet
 > MobileNet uses depth-wise separable convolutions. Such convolutions reduces the number of times multiplication computation is performed. The CNN was made for mobile and embedded computer vision applications. Cornell wrote a paper on the <a href="https://arxiv.org/abs/1704.04861">MobileNet</a>.
 
-> imagenet
->> imagenet is a dataset that all of the pre-trained models use to train their models. The dataset contains over 14 million images with 1000 different classes. To learn more about the imagenet dataset to go to <a href="http://image-net.org/about-overview">here</a>.
+> <strong>imagenet</strong>
+> imagenet is a dataset that all of the pre-trained models use to train their models. The dataset contains over 14 million images with 1000 different classes. To learn more about the imagenet dataset to go to <a href="http://image-net.org/about-overview">here</a>.
 
 
 ### Data
