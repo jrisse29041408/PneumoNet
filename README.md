@@ -1,4 +1,4 @@
-# PneumonNet
+# PneumoNet
 
 #### Name: Jack Risse
 #### School: Flatiron
@@ -11,8 +11,7 @@
 to train the model. The base model was MobileNet that was pre-trained on the imagenet dataset.
 
 > Why I chose MobileNet pre-trained model?
->> Since the access to GPUs is not affordable for a student I couldn't train with a model that requires a substantial amount of
-computing power. So I had to MobileNet because the model was optimized to be used with mobile applications.
+>> Since the access to GPUs is not affordable for a student I couldn't train with a model that requires a substantial amount of computing power. So I had to MobileNet because the model was optimized to be used with mobile applications.
 
 ### MobileNet
 > MobileNet uses depth-wise separable convolutions. Such convolutions reduces the number of times multiplication computation is performed. The CNN was made for mobile and embedded computer vision applications. Cornell wrote a paper on the <a href="https://arxiv.org/abs/1704.04861">MobileNet</a>.
