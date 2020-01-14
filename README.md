@@ -43,9 +43,10 @@ to train the model. The base model was MobileNet that was pre-trained on the ima
 > #### Test set
 > Number of Imgs: 1488 imgs
 
-> Example
+
 ### Normal
 <img src="normal-chest-xray.jpeg" alt="Chest X-ray with no Pneumonia" width="260" height="180">
+
 ### Pneumonia
 <img src="pneumonia-chest-xray.jpeg" alt="Chest X-ray with Pneumonia" width="260" height="180">
 
