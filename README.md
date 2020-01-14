@@ -5,6 +5,8 @@
 #### Project: Capstone
 #### Date: 1/3/2020
 
+#### <strong>DISCLAIMER! In no way, shape or form am I a medical professional.</strong>
+
 
 ## About
 > The objective of this project was to use Convolution Neural Networks to diagnose chest x-rays. Transfer learning was used
