@@ -18,7 +18,8 @@ to train the model. The base model was MobileNet that was pre-trained on the ima
 ### MobileNet
 > MobileNet uses depth-wise separable convolutions. Such convolutions reduces the number of times multiplication computation is performed. The CNN was made for mobile and embedded computer vision applications. Cornell wrote a paper on the <a href="https://arxiv.org/abs/1704.04861">MobileNet</a>.
 
-> <strong>imagenet</strong>
+> #### ImageNet
+
 > imagenet is a dataset that all of the pre-trained models use to train their models. The dataset contains over 14 million images with 1000 different classes. To learn more about the imagenet dataset to go to <a href="http://image-net.org/about-overview">here</a>.
 
 
