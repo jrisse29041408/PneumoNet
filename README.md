@@ -8,7 +8,7 @@
 #### <strong>DISCLAIMER! In no way, shape or form am I a medical professional.</strong>
 
 ## Desire
-> Starting my journey in Data Science I have changed my mind from working for a company and being able create insights and maybe even products to help them thrive seemed to be a novel concept, but that is not who I am. I have always strived to help. I was taught as a child to be the good sumaritan so when I saw this dataset on Kaggle what data scientist were doing with it gave me a passion to use my skills to make difference in a way that a person can benefit from it not be decieved and used from their own data.
+> When starting my journey in Data Science, being able create insights and maybe even products to help them thrive seemed to be a novel concept, but that is not who I am. I have always strived to help and make impact. I was taught as a child to be the good sumaritan and leave a place better than when it was found. So when I saw this dataset on Kaggle what data scientist were doing with it gave me a passion to use my skills to make difference in a way that a person can benefit from it not be decieved and used from their own data.
 
 ## About
 > The objective of this project was to use Convolution Neural Networks to diagnose chest x-rays. Transfer learning was used
